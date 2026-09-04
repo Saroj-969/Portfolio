@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saroj - Developer's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Saroj's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="https://github.com/Saroj-969?tab=repositories">Projects</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hii , My name is <span class="purple">Saroj</span>
+
+                <div>and I am a Passionate</div>
+                <!-- Element to contain animated typing -->
+                <span id="element" class="purple"></span>
+                <div class="buttons">
+                    <button class="btn1">Download Resume</button>
+                    <button class="btn2">Visit Git Hub</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="/web_dev.png" alt="dev_pic">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="txtGray">What I have done so far</span>
+            <h2>Past Experience</h2>
+            <div class="box-hr">
+                <div class="box-vr">
+                    <img src="html.png" alt="html_logo" class="vertical-img">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-content">
+                        Proficient in HTML for creating well-structured and semantic web pages. Familiar with forms, tables, multimedia elements, semantic tags, and building organized website structures.
+                    </div>
+                </div>
+                <div class="box-vr">
+                    <img src="/css.png" alt="css_logo" class="vertical-img">
+                    <div class="vertical-title">
+                        CSS Developer
+                    </div>
+                    <div class="vertical-content">
+                        Skilled in CSS for designing attractive, responsive, and user-friendly web interfaces. Familiar with Flexbox, Grid, animations, transitions, responsive layouts, and modern styling techniques.
+                    </div>
+                </div>
+                <div class="box-vr">
+                    <img src="js.png" alt="js_logo" class="vertical-img">
+                    <div class="vertical-title">
+                        JS Developer
+                    </div>
+                    <div class="vertical-content">
+                       Good understanding of JavaScript for making websites interactive and dynamic. Experienced with DOM manipulation, event handling, functions, arrays, objects, promises, async/await, and API integration.
+                    </div>
+                </div>
+                <div class="box-vr">
+                    <img src="nodeJS.png" alt="nodeJS_logo" class="vertical-img">
+                    <div class="vertical-title">
+                        NodeJS Developer
+                    </div>
+                    <div class="vertical-content">
+                        Familiar with Node.js for server-side JavaScript development. Able to work with Node.js modules, NPM packages, file handling, backend fundamentals, and creating basic server-side applications.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- <div class="footer">
+            <div class="footerFirst">
+                Saroj's Developer Portfolio
+            </div>
+            <div class="footerSecond">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footerThird">
+                 <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footerFourth">
+                 <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div> -->
+        <div class="text-center">
+           © Saroj Moharana. All rights reserved.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web</i> Developer.', '&amp; Fullstack Developer.',`&amp; Web Designer.`],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+</html>

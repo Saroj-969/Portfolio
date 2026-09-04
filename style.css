@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(5, 5, 40);
+    color: white;
+    font-family: Poppins;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(7, 7, 78);
+    height: 50px;
+    font-size: 13px;
+}
+.right ul{
+    display: flex;
+}
+.right ul li{
+    list-style: none;
+    margin: 0 22px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    opacity: .7;
+}
+ul li a:hover{
+    opacity: 1;
+}
+.left{
+    font-size: 20px;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px 0;
+}
+.leftSection{
+    width: 30vw;
+    font-size: 1.5rem;
+}
+.rightSection{
+    width: 30vw;
+}
+.rightSection img{
+    width: 90%;
+}
+.purple{
+    color: #A646FF;
+}
+.txtGray{
+    color: gray;
+    font-size: 13px;
+}
+hr{
+    opacity: .7;
+    height: .5px;
+    margin: 20px 20px;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h2{
+    font-weight: 400;
+    font-size: 22px;
+}
+.secondSection .box-hr{
+    background-color: white;
+    width: 80vw;
+    margin: 30px 0;
+    height: 1px;
+    opacity: .7;
+    display: flex;
+}
+.secondSection .box-hr .box-vr{
+    background-color: white;
+    height: 10vh;
+    width: 1px;
+    margin: 0 100px;
+}
+.vertical-img{
+    position: relative;
+    margin-top: 10px;
+    height: 20px;
+    top: -32px;
+    right: 10px;
+}
+.vertical-title{
+    position: relative;
+    top: 20px;
+    width: 15vw;
+}
+.vertical-content{
+    position: relative;
+    top: 25px;
+    width: 15vw;
+    font-size: 10px;
+    opacity: .7;
+}
+/* .footer{
+    background-color: #0a0a28;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+    padding: 23px 120px;
+    font-size: 12px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer >div {
+    width: 123px;
+} */
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: gray;
+}
+.buttons .btn1{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #393a96;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+.buttons .btn2{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #393a96;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
